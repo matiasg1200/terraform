@@ -20,11 +20,11 @@ terraform {
   }
   required_version = "~>1.6.4"
 
-  backend "s3" {
-    bucket = "tfstate-remote-s3-bucket-lab"
-    key    = "global/terraform.tfstate"
-    region = "us-west-1"
-  }
+#  backend "s3" {
+#    bucket = "tfstate-remote-s3-bucket-lab-823901"
+#    key    = "global/terraform.tfstate"
+#    region = "us-west-1"
+#  }
 
 }
 
